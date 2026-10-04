@@ -1,0 +1,15 @@
+{
+  "name": "01-citation-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Transparent bibliography and DOI metadata checks for AI-assisted legal research",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check core.js && node --check app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
